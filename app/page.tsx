@@ -1,3 +1,5 @@
+import TaskList from "@/components/task-list";
+
 export default function Home() {
-  return <div>Home</div>
+  return <TaskList />;
 }
