@@ -33,8 +33,8 @@ export default function CreateTask() {
       });
       return;
     }
-    if (newDescription.trim().length < 5) {
-      toast.error("Description must be at least 5 characters.", {
+    if (newDescription.trim().length < 10) {
+      toast.error("Description must be at least 10 characters.", {
         position: "top-center",
         style: {
           background: "#fee2e2",
